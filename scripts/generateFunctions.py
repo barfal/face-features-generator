@@ -78,7 +78,7 @@ def extract_coordinates_from_face_video(video_path, save_file):
         # Rysowanie punktu na klatce wideo
         cv2.circle(img=frame, center=(x, y), radius=2, color=(0, 255, 0), thickness=-1)
 
-    cv2.imshow(winname="Face", mat=frame)  # Pokazywanie klatki wideo
+    # cv2.imshow(winname="Face", mat=frame)  # Pokazywanie klatki wideo
 
     time_break = time.time()
     time_stamp = time_break-start_time
